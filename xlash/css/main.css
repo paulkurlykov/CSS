@@ -1,0 +1,225 @@
+/* MAIN */
+
+body {
+    background: lightblue;
+}
+
+.root {
+    display: flex;
+    flex-direction: row;
+}
+
+/* LEFT BAR */
+
+.left-nav {
+    border: solid black 0.1rem;
+    width: 20%;
+}
+
+.logo-img > img {
+    width: 100%;
+    max-height: 9.375rem;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.left-nav-button {
+    border: solid rgb(52, 241, 219) 1rem;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background: rgb(61, 135, 225);
+    font-size: 1.5rem;
+    box-shadow: 0px 8px 16px 0px;
+    font-family: "Rubik Mono One", sans-serif;
+    margin: 2rem;
+}
+
+/* TOP BAR */
+
+.top-nav {
+    border: solid black 0.1rem;
+    padding: 0.5rem;
+    max-height: 9.375rem;
+}
+.top-nav-p {
+    text-align: center;
+}
+
+.top-nav-p > p {
+    margin: 1.5rem 0.5rem;
+    font-size: 2rem;
+    font-family: "Rubik Mono One", sans-serif;
+}
+
+/* CONTAINER */
+
+.container {
+    border: solid black 0.1rem;
+    display: block;
+    flex-direction: column;
+    height: 1000px;
+    width: 80%;
+}
+
+/* GET-METHOD-SECTION */
+
+.get-method-button-div {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+
+.get-method-button {
+    border: solid rgb(52, 241, 219) 1rem;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background: rgb(61, 135, 225);
+    font-size: 1.5rem;
+    box-shadow: 0px 8px 16px 0px;
+    font-family: "Rubik Mono One", sans-serif;
+}
+
+/* QUESTION SECTION */
+
+.question-card-div {
+    display: flex;
+    justify-content: center;
+}
+
+.question-card {
+    border: solid rgb(52, 241, 219) 0.2rem;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background: rgb(61, 135, 225);
+    font-size: 1.5rem;
+    box-shadow: 0px 8px 16px 0px;
+    font-family: "Rubik Mono One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.question-card > p {
+    display: inline;
+    text-align: center;
+}
+
+.question-card-gif-div {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.question-card-gif-div > img {
+    max-width: 60%;
+}
+
+.question-dontknow-button {
+    border: solid rgb(52, 241, 219) 0.25rem;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background: rgb(61, 135, 225);
+    font-size: 1.5rem;
+    box-shadow: 0px 8px 16px 0px;
+    font-family: "Rubik Mono One", sans-serif;
+}
+
+.question-dontknow-button-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* TIMER SECTION */
+
+.timer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background: rgb(61, 135, 225);
+    font-size: 0.75rem;
+    box-shadow: 0px 8px 16px 0px;
+    font-family: "Rubik Mono One", sans-serif;
+    border: solid rgb(52, 241, 219) 0.25rem;
+    border-radius: 10px;
+    margin-top: 5rem;
+}
+
+.timer-wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+    padding: 0.25rem;
+    width: 80%;
+}
+
+.timer-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid rgb(52, 241, 219) 0.2rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.timer-item > div {
+    font-size: 3rem;
+}
+
+.timer-description {
+    width: 20%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.timer-description > p {
+    margin: 0.5rem;
+}
+
+.big-container {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid green;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.item-1 {
+    border: 3px solid black;
+}
+.item-2 {
+    border: 3px solid black;
+}
+.item-3 {
+    border: 3px solid black;
+    flex: 1 1 20%;
+}
+.item-4 {
+    border: 3px solid black;
+    flex: 1 1 20%;
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+}
+
+.bg-container {
+    display: flex;
+    border: 2px black solid;
+}
+.inner__bg-container {
+    background-color: red;
+    border: 2px black solid;
+}
+.picture-container {
+    border: 2px black solid;
+    padding: 20px;
+}
+.inner__picture-container {
+    border: 2px black solid;
+    max-width: 80%;
+}

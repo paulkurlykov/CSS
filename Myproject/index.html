@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Карточки</title>
+        <link rel="stylesheet" href="css/styles.css " />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="root">
+            <div class="header">
+                <div class="header__logo">
+                    <img src="images/1c54f7b06d7723c21afc5035bf88a5ef.png" alt="" />
+                </div>
+                <div class="header__headline">
+                    <div class="headline__wrapper">
+                        <p>ОБЩИЕ ВОПРОСЫ JAVA SCRIPT</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-page">
+                <div class="side-bar">
+                    <div class="left-bar__buttons">
+                        <button class="left-nav-button active">МЕТОДЫ</button>
+                        <button class="left-nav-button">ОБЩИЕ ВОПРОСЫ</button>
+                        <button class="left-nav-button">СSS</button>
+                    </div>
+                </div>
+                <div class="q-page">
+                    <div class="get-method-buttons">
+                        <div class="get-method-button-div">
+                            <button class="get-method-button">ПОКАЗАТЬ МЕТОД</button>
+                        </div>
+                        <div class="get-method-button-div hidden">
+                            <button class="get-method-button">ПОКАЗАТЬ ОБЩИЙ ВОПРОС</button>
+                        </div>
+                        <div class="get-method-button-div hidden">
+                            <button class="get-method-button">ПОКАЗАТЬ ВОПРОС ПРО СSS</button>
+                        </div>
+                    </div>
+
+                    <!-- БЛОК ВОПРОСА С ГИФКОЙ-->
+                    <div class="question-card-div">
+                        <div class="question-card">
+                            <p class="question-p">ЧТО ТАКОЕ МЕТОД...</p>
+                            <div class="question-card-gif-div">
+                                <img src="images/question-mark-animation.gif" alt="" />
+                            </div>
+                            <div class="answer hidden">
+                                <div class="answer-wrapper">
+                                    <p class="answer__text">Some text</p>
+                                </div>
+                            </div>
+                            <div class="answers-buttons">
+                                <a href="#" class="answer-button answer-button__yes">
+                                    <span>Я ЗНАЮ 🎉</span>
+                                </a>
+                                <a href="#" class="answer-button answer-button__go">
+                                    <span>ПОГНАЛИ ДАЛЬШЕ 🤟</span>
+                                </a>
+                                <a href="#" class="answer-button answer-button__no">
+                                    <span>Я НЕ ЗНАЮ 🥺</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- БЛОК С ТАЙМЕРОМ -->
+                    <div class="timer-section">
+                        <div class="timer-wrapper">
+                            <div class="timer-item timer-item__description">
+                                <p class="timer__p-description">ДО НОВОГО ГОДА...</p>
+                            </div>
+                            <div class="timer-item">
+                                <p>Осталось</p>
+                                <div class="timer-months">0</div>
+                                <p>месяцев</p>
+                            </div>
+                            <div class="timer-item">
+                                <p>Осталось</p>
+                                <div class="timer-days">0</div>
+                                <p>дней</p>
+                            </div>
+                            <div class="timer-item">
+                                <p>Осталось</p>
+                                <div class="timer-hours">0</div>
+                                <p>часов</p>
+                            </div>
+                            <div class="timer-item">
+                                <p>Осталось</p>
+                                <div class="timer-minutes">0</div>
+                                <p>минут</p>
+                            </div>
+                            <div class="timer-item">
+                                <p>Осталось</p>
+                                <div class="timer-seconds">0</div>
+                                <p>секунд</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
